@@ -303,8 +303,8 @@ Lemur uses periodic sync tasks to make sure it is up-to-date with its environmen
 .. code-block:: bash
 
   crontab -e
-  */15 * * * * lemur sync -s all
-  0 22 * * * lemur check_revoked
+  */15 * * * * lemur source sync -s all
+  0 22 * * * lemur certificate check_revoked
   0 22 * * * lemur notify
 
 
