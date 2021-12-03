@@ -1689,14 +1689,14 @@ All commands default to `~/.lemur/lemur.conf.py` if a configuration is not speci
 
     ::
 
-        lemur sync -s source1,source2
+        lemur source sync -s source1,source2
 
 
     Additionally you can also list the available sources that Lemur can sync.
 
     ::
 
-        lemur sync
+        lemur source sync
 
 
 .. data:: notify
